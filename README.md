@@ -1,2 +1,2 @@
-# learning-remix
-Learning the framework remix js
+# Aprendiendo REMIX JS - 
+Remix is a full stack web framework
