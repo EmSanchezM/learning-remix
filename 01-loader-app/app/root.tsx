@@ -8,9 +8,15 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
+import styles from '~/styles/global.css'
+
+export function links() {
+  return [{ rel: 'stylesheet', href: styles }]
+}
+
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Learning loader",
+  title: "Learning Remix",
   viewport: "width=device-width,initial-scale=1",
 });
 
