@@ -1,6 +1,6 @@
 import type { Character } from "~/models/character.model"
 
-const Card = ({ name, image, id} : Pick<Character, 'name' | 'image' | 'id'>) => {
+const CharacterCard = ({ name, image, id} : Pick<Character, 'name' | 'image' | 'id'>) => {
   return (
     <article className="card">
         <img src={image} alt={name} className='img-character' />
@@ -13,4 +13,4 @@ const Card = ({ name, image, id} : Pick<Character, 'name' | 'image' | 'id'>) => 
   )
 }
 
-export default Card
+export default CharacterCard
